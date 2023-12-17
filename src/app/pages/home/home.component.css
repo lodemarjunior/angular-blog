@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+app-menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container__articles {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.articles_main {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.articles_others {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 10px;
+}
