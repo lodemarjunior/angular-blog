@@ -1,7 +1,7 @@
 <div class="container__big_card">
     <div class="big-card__photo">
         <img
-            src="https://walpaper.es/wallpaper/2015/11/wallpaper-gratis-de-un-espectacular-paisaje-en-color-azul-en-hd.jpg"
+            src="{{ photoCover }}"
             alt=""
             height="200px"
             width="100%"
@@ -11,14 +11,14 @@
 
     <div class="big-card__title">
         <h1>
-            <a href="#">Saiu a nova versão do Angular</a>
+            <a [routerLink]="['content', id]"> {{ cardTitle }} </a>
         </h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="#">
-                teste teste teste teste
+            <a [routerLink]="['content', id]">
+                {{ cardDescription }}
             </a>
         </p>
     </div>

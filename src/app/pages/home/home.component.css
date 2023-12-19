@@ -1,8 +1,3 @@
-header {
-    display: flex;
-    justify-content: center;
-}
-
 app-menu-title {
     display: flex;
     align-items: center;
